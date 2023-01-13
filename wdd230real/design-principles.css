@@ -3,11 +3,11 @@
 body {
     font-family: 'Nunito', sans-serif;
     font-size: larger;
-    background-color:gainsboro
+    background-color:whitesmoke
 }
 
 img{
-    width:350px;
-    height: 550px;
+    width:30%;
+    height: 650px;
     display: grid;
 }
