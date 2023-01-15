@@ -7,7 +7,6 @@ body {
 }
 
 img{
-    width:30%;
-    height: 650px;
-    display: grid;
-}
+    width: 150px;
+    display: inline-block;
+    }
