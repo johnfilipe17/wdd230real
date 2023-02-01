@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sofia+Sans+Extra+Condensed:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sofia+Sans+Extra+Condensed:wght@200&family=Varela+Round&display=swap');
+
 img {
     height: 150px;
     grid-column: 2/3;
@@ -17,6 +23,7 @@ header{
 h1 {
     color: white;
     grid-column: 1/2;
+    font-family: 'Lobster', cursive;
 }
 
 footer{
@@ -35,8 +42,16 @@ ul {
     justify-content: center ;
     margin-left:500px;
     list-style: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
 }
 
 h2{
     margin-left: 500px;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 50px;
+}
+
+body{
+    background-color: rgb(233, 233, 197);
 }
