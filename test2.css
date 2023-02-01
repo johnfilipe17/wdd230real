@@ -1,0 +1,159 @@
+
+img {
+    margin-left: 350px;
+}
+body {
+    justify-content: center;
+	font-size: 16px;
+	font-family: Roboto, Helvetica, sans-serif;
+    background-color:rgb(205, 243, 245) ;
+}
+
+footer{
+    
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(216, 119, 236);
+}
+
+h1{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(205, 243, 245);
+    background-color: #d37fb3;
+    position:initial
+     
+}
+h2{
+    text-align: center;
+    font-size:30px;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(241, 243, 243);
+    background-color: #d37fb3;
+    
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    word-spacing: 6px;
+    color: #1f1c20;
+    
+}
+
+nav {
+	background-color: #d37fb3;
+	text-align: center;
+	background-color: #d37fb3;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+nav a:hover {
+	background-color: #d37fb3;
+	color: yellow;
+}
+
+
+main .submenu {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+
+.submenu ul {
+	margin-left: 2rem;
+}
+
+main picture {
+	display: none;
+	margin: 1rem;
+}
+
+main article {
+	margin: 1rem;
+}
+
+footer{
+    
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d37fb3;
+    
+}
+h3{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Dosis', sans-serif;
+    color:rgb(205, 243, 245);
+    background-color: #d37fb3;
+    
+    
+}
+
+h4{
+    text-align: center;
+    font-size:20px;
+    font-family: 'Dosis', sans-serif;
+    color: #d37fb3;
+}
+
+.acaisd{
+    height:400px;
+    width:40%;
+    margin-left: 420px;
+    padding-top: 50px;
+    padding-bottom: 50 px;
+}
+
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
+
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	main picture {
+		display: block;
+	}
+}
+
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+}

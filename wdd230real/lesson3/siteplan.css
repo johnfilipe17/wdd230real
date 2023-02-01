@@ -39,8 +39,6 @@ h2{
     color: rgb(205, 243, 245);
     background-color: #d37fb3;
     
-    
-    
 }
 
 h3{
@@ -215,3 +213,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
