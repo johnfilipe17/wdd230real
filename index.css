@@ -1,0 +1,38 @@
+img {
+    height: 150px;
+    grid-column: 2/3;
+
+}
+
+header{
+    background-color: rgb(117, 21, 21);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: inherit;
+    margin-right:250px;
+    margin-left: 250px;
+
+}
+
+h1 {
+    color: white;
+    grid-column: 1/2;
+}
+
+footer{
+    
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(117, 21, 21);
+    color: whitesmoke;
+}
+
+ul {
+    justify-content: center ;
+    margin-left:500px;
+    list-style: none;
+}

@@ -1,0 +1,1 @@
+document.getElementById("#placeholder").innerHTML = new Date(document.lastModified);
