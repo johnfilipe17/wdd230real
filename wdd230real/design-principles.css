@@ -34,3 +34,15 @@ footer{
     background-color: blue;
     color: whitesmoke;
 }
+
+ul {
+    list-style: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 850px;
+    
+}
+
+li {
+    margin: 10px;
+}
