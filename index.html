@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=text, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="stylesIndex/index.css">
     <title>main index</title>
     <meta name= "description" content="This is the place where I will submit all the Assignments ofr the semester, the course is WDD 230">
 </head>
 <body>
-    <main>
     <header>
         <h1>João Filipe</h1>
-        <img src="wdd230real/me.jpg" alt="My pic">
+        <img src="imagesIndex/me.jpg" alt="My pic">
        
     </header>
+    <main>
     <nav>
         <h2>WDD 230 Assignment Portal</h2>
         <ul>
@@ -34,12 +34,9 @@
     <footer>
         <p>Main index &copy; 2023 - Joao Filipe da Silva<br></p>
         <p>Last Modified:</p>
-        <div id= "placeholder">
-        <p>Last Modified:</p>
+        <span id="currentdate"></span>
         </div>
     </footer>
-    <script>
-        document.getElementById("placeholder").innerHTML = new Date(document.lastModified);
-    </script>
+    <script src="scripts/currentdate.js"></script>
 </body>
 </html>
