@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capixaba Tourism</title>
-    <link rel="stylesheet" href="test2.css">
+    <link rel="stylesheet" href="stylessiteplan/test2.css">
     <link rel="shortcut icon" href="lesson3/images/favicon.jpg" type="image/x-icon">
     <meta name= "description" content="the client will have here a summary what the page is about.">
 </head>
@@ -30,26 +30,26 @@
         <div class="slideshow-container">
 
             <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
+              <div class="numbertext">.</div>
               <img src="lesson3/images/muqueca.jpg" alt="Moqueca" style="width:600px">
-              <div class="text">Caption Text</div>
+              <div class="text">Moqueca Capixaba</div>
             </div>
             
             <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
+              <div class="numbertext">.</div>
               <img src="lesson3/images/orla.jpg" alt="Orla" style="width:600px">
-              <div class="text">Caption Two</div>
+              <div class="text">The seashore</div>
             </div>
             
             <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
+              <div class="numbertext">.</div>
               <img src="lesson3/images/praiasecreta.jpg" alt="secreta" style="width:600px">
-              <div class="text">Caption Three</div>
+              <div class="text">Secret beach</div>
             </div>
             
             <!--AQUI EU TIREI O BOTÃO DO SLIDE DE VOLTAR A FOTO ANTERIOR POIS ESTAVA BUGADO NO MEIO DA FOTO-->
             <!--<a class="prev" onclick="plusSlides(-1)">❮</a>-->
-            <a class="next" onclick="plusSlides(1)">❯</a>
+            <a class="next" onclick="plusSlides(1)">.</a>
             
             </div>
             <br>
@@ -86,22 +86,7 @@
             </a>-->
     </footer>
 </main>
-<script>
-  
-  let slideIndex = 0;
-  showSlides();
-  function showSlides() {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    slides[slideIndex-1].style.display = "block";
-    setTimeout(showSlides, 5000); // Change image every 5 seconds
-  }
-  </script>
+<script src="scriptssiteplan/siteplan.js" ></script>
   
 </body>
 </html>
