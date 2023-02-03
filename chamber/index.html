@@ -1,69 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <!--fonts start-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Site Planning Document</title>
+    <meta name="description" content="this site will be on Espirito santo chamber of commerce and tourism" />
+    <!--fonts start-->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
   <!--font end-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capixaba Tourism</title>
-    <link rel="stylesheet" href="styles/chamber.css">
-    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
-    <meta name= "description" content="the client will have here a summary what the page is about.">
-</head>
-<body>
-<main>
-    <h1>Week 3 Assignment</h1>
-    <h3>João Filipe</h3>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
     <header>
-        <a class="logo-link" href="gellato.html"></a>
-        <nav>
-            <a href="">link 1</a>
-            <a href="">link 2</a>
-            <a href="">link 3 </a>
-        </nav>
-
-        
-    
-           
-            <div style="text-align:center">
-              <span class="dot" onclick="currentSlide(1)"></span> 
-              <span class="dot" onclick="currentSlide(2)"></span> 
-              <span class="dot" onclick="currentSlide(3)"></span> 
-            </div>
-            <!--slideshow ends-->
-    </header> 
-    
-    <footer>
-        <p>Capixaba Tourism &copy; 2023 - Joao Filipe da Silva</p>
-        <a class="logo-link" href="gellato.html"></a>
-             <!--<a href="https://facebook.com">
-                <img src="images/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com">
-                <img src="images/twitter.png" alt="twitter icon">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="instagram icon">
-            </a>-->
+      <img src="images/logo.jpg" alt="Capixaba tourism logo" height="100px" width="100px">
+      <h1>Capixaba tourism</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#!" id="navBtn">&#9776; Menu</a></li>
+        <li><a href="#!">Home</a></li>
+        <li><a href="/">Target Audience</a></li>
+        <li><a href="#">Design</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="cards">
+        <div class="card">
+          <h3>Capixaba Tourism</h3>
+        </div>
+        <div class="card">
+          <h3>Target Audience</h3>
+        </div>
+        <div class="card">
+          <h3>Design</h3>
+        </div>
+        <div class="card">
+          <h3>Contact us</h3>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>
+          &copy; 2023 | João Filipe Silva | Brazil | 
+      </p>
+      <p class="last-update" id="currentDate"></p>
     </footer>
-</main>
-<script>
-  //maneira babaka de tentar mostrar a hora.
-  const date = new Date();
-
-let day = date.getDate();
-let month = date.getMonth() + 1;
-let year = date.getFullYear();
-
-// This arrangement can be altered based on how we want the date's format to appear.
-let currentDate = `${day}-${month}-${year}`;
-console.log(currentDate); 
-
-  </script>
-  
-</body>
+    <script src="chamber.js/last-modified.js" ></script>
+    <script src="chamber.js/responsive-menu.js" defer></script>
+  </body>
 </html>
