@@ -20,6 +20,10 @@ main {
     padding-bottom: 1rem;
 }
 
+span {
+    color:black;
+}
+
 header,
 footer {
     display: flex;
