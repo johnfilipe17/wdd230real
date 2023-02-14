@@ -50,12 +50,17 @@ button {
 ul {
 	margin: 1rem;
 	list-style: none;
+	
 }
 
 li {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	color: white;
+}
+label {
+	color: white;
 }
 
 @media only screen and (min-width: 32.5em) {
