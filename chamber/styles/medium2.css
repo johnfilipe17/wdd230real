@@ -2,7 +2,7 @@
   ##Device = Tablets, Ipads 
   ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 668px) and (max-width: 999px) {
   
     nav ul {
         flex-direction: row;
@@ -52,5 +52,24 @@
     .logo {
         height:150px;
     }
-  
+
+    section{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction: column;
+            
+    }
+    
+    .thephoto{
+        
+        border: 3px solid black;
+        height: 350px;  
+        width: 400px;
+        margin: 10px;
+        
+    }
+    .discover{
+        color:black;
+    }
 }

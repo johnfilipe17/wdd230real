@@ -3,7 +3,7 @@
   ##Screen = B/w 1025px
 */
 
-@media (min-width: 625px) {
+@media (min-width: 1000px) {
 
     nav ul {
         flex-direction: row;
@@ -64,5 +64,25 @@
 
     .logo {
         height:150px;
+    }
+
+    section{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction: column;
+        
+    }
+    
+    .thephoto{
+        
+        border: 4px solid black;
+        height: 450px;  
+        width: 600px;
+        margin: 10px;
+    
+    }
+    .discover{
+        color:black;
     }
 }

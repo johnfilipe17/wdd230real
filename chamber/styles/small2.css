@@ -1,4 +1,5 @@
 
+
 * {
     box-sizing: border-box;
 }
@@ -166,8 +167,7 @@ td, th{
     text-align: center;
     margin-right: 35px;
     top: 20px;
-    left: 20px;
-    background: #d37fb3;
+    left: 20px;    background: #d37fb3;
     border-top: 2px dashed white;
     border-left: 2px dashed white;
     padding: 10px;
@@ -280,6 +280,28 @@ tbody tr {
 
 .logo {
     height:150px;
+}
+
+section{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: column;
+    
+    
+}
+
+.thephoto{
+    
+    border: 2px solid black;
+    height: 250px;  
+    width: 350px;
+    margin: 10px;
+    
+}
+
+.discover{
+    color:black;
 }
 
 .mapouter{position:relative;text-align:right;height:100%;width:100%;}
