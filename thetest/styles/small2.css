@@ -37,12 +37,12 @@ footer {
 }
 
 footer {
-    background: #73d0d6;
+    background-color: #98b3ee;
     color: black;
 }
 
 header h1 {
-    font-family: 'Kodchasan', sans-serif;
+    font-family: 'Mynerve', cursive;
     text-align: center;
     color: black;
     margin: 0;
@@ -53,8 +53,9 @@ header .motto {
 }
 
 nav {
-    background-color: #73d0d6;
-    color:#111111
+    background-color: #98b3ee;
+    color:#111111;
+    font-family: 'Abel', sans-serif;
 }
 
 nav ul {
