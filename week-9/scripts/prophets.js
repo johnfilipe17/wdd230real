@@ -1,33 +1,65 @@
-const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const requestURL = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
 
+async function getData(requestURL) {
+    const response = await fetch(requestURL);
+    if (response.ok) {
+        const data = await response.json();
+        // console.log(data);
+        const prophets = data['prophets'];
+        prophets.forEach(prophet => {
+            displayCards(prophet);
+            // displayTable(prophet);
+        });
+    }
+}
 
-fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
-   
+getData(requestURL);
 
-const prophets = jsonObject['prophets'];
-for (let i = 0; i < prophets.length; i++) {
+function displayCards(prophet) {
     let card = document.createElement('section');
+    
+    // Prophet Name
     let h2 = document.createElement('h2');
-    let bDay = document.createElement('p');
-    let bPlace = document.createElement('p');
-    let image = document.createElement('img');
-
-    image.setAttribute('src', prophets[i].imageurl);
-    image.setAttribute('alt', `${prophets[i].name} ${prophets[i].lastname} - ${prophets[i].order}`);
-    h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-    bDay.textContent = 'Birthdate: ' + prophets[i].birthdate;
-    bPlace.textContent = 'Birthplace: ' + prophets[i].birthplace;
-
+    h2.textContent = prophet.name + ' ' + prophet.lastname;
     card.appendChild(h2);
-    card.appendChild(bDay);
-    card.appendChild(bPlace);
-    card.appendChild(image);
-    document.querySelector('div.cards').appendChild(card);
-} 
 
-});
+    // Prophet Birthdate
+    let birthdate = document.createElement('p');
+    birthdate.textContent = 'Date of Birth: ' + prophet.birthdate;
+    card.appendChild(birthdate);
+
+    // Prophet Birthplace
+    let birthplace = document.createElement('p');
+    birthplace.textContent = 'Place of Birth: ' + prophet.birthplace;
+    card.appendChild(birthplace);
+
+    // Prophet Image
+    let image = document.createElement('img');
+    image.setAttribute('src', prophet.imageurl);
+    image.setAttribute('alt', `${prophet.name} ${prophet.lastname} ${prophet.order}`);
+    card.appendChild(image);
+
+    // Append card to the DOM (the prophet list).
+    document.querySelector('div.cards').appendChild(card);
+}
+
+function displayTable(prophet) {
+    let tableRow = document.createElement('tr');
+
+    // Prophet Name
+    let tableName = document.createElement('td');
+    tableName.textContent = prophet.name + ' ' + prophet.lastname;
+    tableRow.appendChild(tableName);
+
+    // Prophet Birthdate
+    let tableBirthdate = document.createElement('td');
+    tableBirthdate.textContent = prophet.birthdate;
+    tableRow.appendChild(tableBirthdate);
+
+    // Prophet Birthplace
+    let tableBirthplace = document.createElement('td');
+    tableBirthplace.textContent = prophet.birthplace;
+    tableRow.appendChild(tableBirthplace);
+
+    document.querySelector('table').appendChild(tableRow);
+}
