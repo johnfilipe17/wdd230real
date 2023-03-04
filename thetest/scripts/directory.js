@@ -1,4 +1,5 @@
 const requestURL = 'https://github.com/johnfilipe17/wdd230real/blob/main/thetest/data.json';
+
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
@@ -12,7 +13,6 @@ async function getData(requestURL) {
         const data = await response.json();
         // console.log(data);
         const businesses = data['businesses'];
-
         businesses.forEach(business => {
             displayCards(business);
         });
@@ -58,7 +58,7 @@ function displayCards(business) {
 
     // Business Address
     let address = document.createElement('p');
-    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
+    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + 
     card.appendChild(address);
 
     // Business Phone
@@ -66,11 +66,6 @@ function displayCards(business) {
     phone.textContent = business.phone;
     card.appendChild(phone);
 
-    // Business Website
-    let website = document.createElement('a');
-    website.setAttribute('href', business.website);
-    website.textContent = 'Website';
-    card.appendChild(website);
 
     // Append card to the DOM (the prophet list).
     document.querySelector('div.cards').appendChild(card);
@@ -99,10 +94,6 @@ function displayTable(business) {
     phone.textContent = business.phone;
     tableRow.appendChild(phone);
 
-    // Business Website
-    let website = document.createElement('td');
-    website.innerHTML = `<a href="${business.website}">Website</a>`;
-    tableRow.appendChild(website);
 
     document.querySelector('table').appendChild(tableRow);
 }
