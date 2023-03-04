@@ -1,0 +1,126 @@
+{
+    "business": [
+        {
+            "name":"Perim",
+            "type":"supermarket",
+            "Location":{
+                "address1":"rua idelino perim",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":2733991010,
+            "member-level":"gold",
+            "logo":"#"
+        },
+        {
+            "name":"Carone",
+            "type":"supermarket",
+            "Location":{
+                "address1":"Av. Champagnat, 946 ",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":2721251005,
+            "member-level":"silver",
+            "logo":"#"
+        },
+        {
+            "name":"L'italiano",
+            "type":"Restaurant",
+            "Location":{
+                "address1":"Rua Afonso Pena, 677 ",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers": 2730615050,
+            "member-level":"gold",
+            "logo":"#"
+        },
+        {
+            "name":"Laboratorio pretti",
+            "type":"medical Lab",
+            "Location":{
+                "address1":"Rua Jorge rizk, 68",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers": 2721240400,
+            "member-level":"silver",
+            "logo":"#"
+        },
+        {
+            "name":"Mahai",
+            "type":"Restaurant",
+            "Location":{
+                "address1":" Rua Henrique Moscoso, 90",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":2734414797,
+            "member-level":"gold",
+            "logo":"#"
+        },
+        {
+            "name":"preço baixo",
+            "type":"Pharmacy",
+            "Location":{
+                "address1":" Avenida Santa Leopoldina, 1571",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":2733398246,
+            "member-level":"silver",
+            "logo":"#"
+        },
+        {
+            "name":"Fisiomed",
+            "type":"Physiotherapy center",
+            "Location":{
+                "address1":" Avenida Santa Leopoldina, 1925",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":2732898909,
+            "member-level":"silver",
+            "logo":"#"
+        },
+        {
+            "name":"Correria music bar",
+            "type":"night club",
+            "Location":{
+                "address1":" Avenida Est. José Júlio de Souza, 740",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":27981163325,
+            "member-level":"silver",
+            "logo":"#"
+        },
+        {
+            "name":"Correria music bar",
+            "type":"night club",
+            "Location":{
+                "address1":" Avenida Est. José Júlio de Souza, 740",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":27981163325,
+            "member-level":"bronze",
+            "logo":"#"
+        },
+        {
+            "name":"boulevard shopping",
+            "type":"Mall",
+            "Location":{
+                "address1":" Rod. do Sol, 5000",
+                "city":"Vila Velha",
+                "state": "Espirito santo"
+            },
+            "phone-numbers":2733111600,
+            "member-level":"silver",
+            "logo":"#"
+        }
+    ]
+
+
+}
