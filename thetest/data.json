@@ -10,7 +10,7 @@
             },
             "phone-numbers":2733991010,
             "member-level":"gold",
-            "logo":"#"
+            "logo":"images/perim2.jpg"
         },
         {
             "name":"Carone",
@@ -22,7 +22,7 @@
             },
             "phone-numbers":2721251005,
             "member-level":"silver",
-            "logo":"#"
+            "logo":"images/carone.png"
         },
         {
             "name":"L'italiano",
@@ -34,7 +34,7 @@
             },
             "phone-numbers": 2730615050,
             "member-level":"gold",
-            "logo":"#"
+            "logo":"images/litaliano.png"
         },
         {
             "name":"Laboratorio pretti",
@@ -46,7 +46,7 @@
             },
             "phone-numbers": 2721240400,
             "member-level":"silver",
-            "logo":"#"
+            "logo":"images/pretti.png"
         },
         {
             "name":"Mahai",
@@ -58,7 +58,7 @@
             },
             "phone-numbers":2734414797,
             "member-level":"gold",
-            "logo":"#"
+            "logo":"images/mahai.jpg"
         },
         {
             "name":"preço baixo",
@@ -70,7 +70,7 @@
             },
             "phone-numbers":2733398246,
             "member-level":"silver",
-            "logo":"#"
+            "logo":"images/preco.png"
         },
         {
             "name":"Fisiomed",
@@ -82,7 +82,7 @@
             },
             "phone-numbers":2732898909,
             "member-level":"silver",
-            "logo":"#"
+            "logo":"images/fisio.png"
         },
         {
             "name":"Correria music bar",
@@ -94,20 +94,9 @@
             },
             "phone-numbers":27981163325,
             "member-level":"silver",
-            "logo":"#"
+            "logo":"images/correria.jpg"
         },
-        {
-            "name":"Correria music bar",
-            "type":"night club",
-            "Location":{
-                "address1":" Avenida Est. José Júlio de Souza, 740",
-                "city":"Vila Velha",
-                "state": "Espirito santo"
-            },
-            "phone-numbers":27981163325,
-            "member-level":"bronze",
-            "logo":"#"
-        },
+
         {
             "name":"boulevard shopping",
             "type":"Mall",
@@ -118,7 +107,7 @@
             },
             "phone-numbers":2733111600,
             "member-level":"silver",
-            "logo":"#"
+            "logo":"images/boule.jpg"
         }
     ]
 
