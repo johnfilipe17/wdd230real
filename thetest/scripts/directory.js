@@ -1,4 +1,4 @@
-const requestURL = 'https://ianashby.github.io/WDD230/chamber/data.json';
+const requestURL = 'https://github.com/johnfilipe17/wdd230real/blob/main/thetest/data.json';
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
 const grid = document.querySelector('#grid');
