@@ -233,6 +233,7 @@ main section,  main section div {  /* aqui altera o main quando a pagina fica me
     
     color: #aa1515;
     text-decoration: dashed;
+    
 }
 
 #spot1, #spot2, #spot3 {
@@ -241,12 +242,19 @@ main section,  main section div {  /* aqui altera o main quando a pagina fica me
     /* margin: -20px; */
 }
 
-#news, #event, #join, #weather {
+ #event, #join, #weather {
     padding: 10px;
+    color: black;
+}
+#news{
+    padding: 10px;
+    background-color: white;
 }
 
 #news a:hover {
     color: #a70000;
+    font-weight: 800;
+    
 }
 
 button:hover {          /* botão do x para fechar o banner com a pagina pequena  */
