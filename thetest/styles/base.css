@@ -64,8 +64,8 @@ header {
 
 
 #logo img {
-    width: 200px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     padding: 20px;
 }
 
@@ -246,6 +246,7 @@ main section,  main section div {  /* aqui altera o main quando a pagina fica me
     padding: 10px;
     color: black;
 }
+
 #news{
     padding: 10px;
     background-color: white;
