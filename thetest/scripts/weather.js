@@ -11,7 +11,7 @@ const getWeather = async () => {
     const desc = jsObject.weather[0].description.toUpperCase();
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
-    document.querySelector('figcaption').textContent = desc;
+   
 
     let wind = jsObject.wind.speed;
     document.querySelector('#wind').textContent = wind;
