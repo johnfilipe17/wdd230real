@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/small2.css">
     <link rel="stylesheet" href="styles/medium2.css">
     <link rel="stylesheet" href="styles/large2.css">
+    <link rel="stylesheet" href="styles/discover.css">
     <!--fonts start-->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Oswald:wght@300&display=swap" rel="stylesheet">
@@ -38,34 +39,36 @@
         <section>
           <h2>A little about our city</h2>
           <p class="discover">Vila Velha is a Brazilian municipality located on the coast of the state of Espírito Santo, in the Southeast Region of the country. It belongs to the Metropolitan Region of Vitória and occupies an area of ​​209,965 km², of which 54.57 km² are in the urban perimeter, and the population in 2021 was estimated by the IBGE at 508,655 inhabitants, which makes the municipality the second most populous in Espírito Santo Santo, behind only Serra.
+            <br>
+            <h2>Our Geography</h2>
 
-            The seat has an average annual temperature of 24.7 °C and the original vegetation of the municipality is dominated by the Atlantic Forest, currently having some stretches of restinga. With 99.5% of its inhabitants living in urban areas, in 2009 the city had 163 health facilities. Its Human Development Index is 0.8, which is considered very high in relation to the Brazilian average, being the second highest in the entire state.
-            
+            <p class="discover">he seat has an average annual temperature of 24.7 °C and the original vegetation of the municipality is dominated by the Atlantic Forest, currently having some stretches of restinga. With 99.5% of its inhabitants living in urban areas, in 2009 the city had 163 health facilities. Its Human Development Index is 0.8, which is considered very high in relation to the Brazilian average, being the second highest in the entire state.
             </p>
+            <br>
             <h2>What's here to know</h2>
-            <!--aqui em baixo eu coloco a source da imagen invalida pra não carregar nada, o que importa mesmo é a data-src que ai quando eu chego na metade da foto, a img começa a carregar. isso pq no meu lazy.js esta especificado 0.5 no Threshhold. depende do numero que está lá. agora mesmo eu vou trocar pra 0.3 pra carregar antes. -->
-        <img class="thephoto" src="images/praiasecreta" data-src="images/praiasecreta.jpg" alt="Praia Secreta">
-        <p>Praia Secreta is a big touristic beach. As the name states is a hidden beach sourounded by beauty</p>
-        <img class="thephoto" src="images/moreno" data-src="images/moreno.webp"  alt="Morro do moreno">
-        <p>Morro do moreno is a mountain witha beautiful view of the city.</p>
-        <img class="thephoto" src="images/convento" data-src="images/convento.webp"  alt="convento da penha">
-        <p>Convento da penha is a catholic sacred monument and chapel very famous and one of the most visited touristic sites due to its view.</p>
-        <img class="thephoto" src="images/barcos" data-src="images/barcos.webp"  alt="Pescadores">
+            <!--aqui em baixo eu coloco a source de uma imagem em branco pra não aparecer nada, o que importa mesmo é a data-src que ai quando eu chego na metade da foto, a img começa a carregar. isso pq no meu lazy.js esta especificado 0.5 no Threshhold. depende do numero que está lá. agora mesmo eu vou trocar pra 0.3 pra carregar antes. -->
+        <img class="thephoto" src="images/white.webp" data-src="images/praiasecreta.webp" alt="Praia Secreta">
+        <p>It is a big touristic beach. As the name states is a hidden beach sourounded by beauty</p>
+        <img class="thephoto" src="images/white.webp" data-src="images/moreno.webp"  alt="Morro do moreno">
+        <p>It is a mountain witha beautiful view of the city.</p>
+        <img class="thephoto" src="images/white.webp" data-src="images/convento.webp"  alt="convento da penha">
+        <p>It is a catholic sacred monument and chapel very famous and one of the most visited touristic sites due to its view.</p>
+        <img class="thephoto" src="images/white.webp" data-src="images/barcos.webp"  alt="Pescadores">
         <p>Fishing is a huge thing here. Fish is the main ingredient of the most famous dish in the state. </p>
-        <img class="thephoto" src="images/ponte" data-src="images/ponte.jpg"  alt="Terceira ponte">
-        <p>Terceira Ponte is a famous bridge that conects the City of Vila velha to the state Capital Vitoria.it was built in 1989.</p>
+        <img class="thephoto" src="images/white.webp" data-src="images/ponte.webp"  alt="Terceira ponte">
+        <p>It is a famous bridge that conects the City of Vila velha to the state Capital Vitoria.it was built in 1989.</p>
         </section>
     </main>
     <footer class="footer">
-        <p>
-            &copy; 2023 | João Filipe | Brazil | <a href="https://byui.edu/" target="_blank">WDD 230</a>
-        </p>
-        <p class="last-update" id="currentDate"></p>
+      <div id="copyright">
+        <p>&copy; <span id="copyrightYear"></span> Capixaba Chamber of Commerce | João Filipe | WDD230 Project</p>
+        <p><span id="lastVisited"></span></p>
+    </div>
       </footer>
       <script src="chamber.js/lazy.js"></script>
-      <script src="chamber.js/last-modified.js" ></script>
+      <script src="/wdd230real/thetest/chamber.js/last-modified.js" ></script>
       <script src="chamber.js/responsive-menu.js" defer></script>
-      <script src= "chamber.js/invite.js"></script>
+      <script src= "/wdd230real/thetest/scripts/visits.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
       <script>
         WebFont.load({
