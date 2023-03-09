@@ -1,4 +1,4 @@
-const requestURL = 'https://github.com/johnfilipe17/wdd230real/blob/main/thetest/data.json';
+const requestURL = 'https://raw.githubusercontent.com/johnfilipe17/wdd230real/main/thetest/data.json';
 
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
