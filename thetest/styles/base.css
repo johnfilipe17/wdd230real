@@ -11,6 +11,7 @@
     z-index: 10;
     background: #11fc8e;
     
+    
 }
 
 .banner-content {
@@ -33,6 +34,7 @@
     background: none;
     border: none;
     cursor: pointer;
+    
 }
 
 .banner-button img {
@@ -42,6 +44,7 @@
 .banner-text,
 .banner-button > span {
     color: black; 
+    
 }
 
 /*.banner-button > span:hover {
@@ -55,6 +58,7 @@ header {
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
     margin: auto;
+    
     
 }
 
@@ -141,6 +145,7 @@ nav a:hover {
     padding-bottom: 10px;
     font-family: 'EB Garamond', serif;
     font-weight: 500;
+    
 }
 
 /* MAIN */
@@ -563,4 +568,13 @@ tr td {
 
 #choose {
     margin-left: 450px;
+}
+
+#submit {
+    width:150px;
+    height: 50px;
+}
+
+#hamburger {
+    color: black;
 }
