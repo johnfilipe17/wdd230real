@@ -11,7 +11,7 @@
             },
             "phone": "2733991010",
             "member-level": "gold",
-            "logo": "images/perim2.jpg"
+            "logo": "images/perim2.webp" 
         },
         {
             "name": "Carone",
@@ -37,7 +37,7 @@
             },
             "phone-numbers": "2730615050",
             "member-level": "gold",
-            "logo": "images/litaliano.png"
+            "logo": "images/litaliano.webp"
         },
         {
             "name": "Laboratorio pretti",
@@ -50,7 +50,7 @@
             },
             "phone-numbers": "2721240400",
             "member-level": "Silver",
-            "logo": "images/pretti.png"
+            "logo": "images/pretti.webp"
             
         },
         {
@@ -64,7 +64,7 @@
             },
             "phone-numbers": "2734414797",
             "member-level": "Gold",
-            "logo": "images/mahai.jpg"
+            "logo": "images/mahai.webp"
             
         },
         {
@@ -78,7 +78,7 @@
             },
             "phone-numbers": "2733398246",
             "member-level": "Silver",
-            "logo": "images/preco.png"
+            "logo": "images/preco.webp"
         },
         {
             "name":"Fisiomed",
@@ -91,7 +91,7 @@
             },
             "phone-numbers": "2732898909",
             "member-level": "Silver",
-            "logo": "images/fisio.png"
+            "logo": "images/fisio.webp"
         },
         {
             "name": "Correria music bar",
@@ -104,7 +104,7 @@
             },
             "phone-numbers": "27981163325",
             "member-level": "silver",
-            "logo": "images/correria.jpg"
+            "logo": "images/correria.webp"
         },
 
         {
@@ -118,7 +118,7 @@
             },
             "phone-numbers": "2733111600",
             "member-level": "silver",
-            "logo": "images/boule.jpg"
+            "logo": "images/boule.webp"
         }
     ]
 

@@ -1,4 +1,4 @@
-const requestURL = 'https://run.mocky.io/v3/d4a3c3bb-01c6-4d87-82f3-c024c4e89d7c';
+const requestURL = 'https://run.mocky.io/v3/13a96f85-1c38-4556-8ff3-2b7a8c6e8e27';
 
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
