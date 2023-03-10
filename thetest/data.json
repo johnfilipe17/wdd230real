@@ -2,12 +2,12 @@
     "businesses": [
         {
             "name": "Perim",
-            "type": "supermarket",
+            "type": "Supermarket",
             "Location": {
                 "address1": "rua idelino perim",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "000000"
             },
             "phone": "2733991010",
             "member-level": "gold",
@@ -15,12 +15,12 @@
         },
         {
             "name": "Carone",
-            "type": "supermarket",
+            "type": "Supermarket",
             "Location":{
                 "address1": "Av. Champagnat, 946 ",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "000000"
             },
             "phone-numbers": "2721251005",
             "member-level": "silver",
@@ -32,8 +32,8 @@
             "Location":{
                 "address1": "Rua Afonso Pena, 677 ",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "000000"
             },
             "phone-numbers": "2730615050",
             "member-level": "gold",
@@ -45,11 +45,11 @@
             "Location":{
                 "address1": "Rua Jorge rizk, 68",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "000000"
             },
             "phone-numbers": "2721240400",
-            "member-level": "silver",
+            "member-level": "Silver",
             "logo": "images/pretti.png"
             
         },
@@ -59,11 +59,11 @@
             "Location":{
                 "address1": "Rua Henrique Moscoso, 90",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "0000000"
             },
             "phone-numbers": "2734414797",
-            "member-level": "gold",
+            "member-level": "Gold",
             "logo": "images/mahai.jpg"
             
         },
@@ -73,11 +73,11 @@
             "Location":{
                 "address1": " Avenida Santa Leopoldina, 1571",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "000000"
             },
             "phone-numbers": "2733398246",
-            "member-level": "silver",
+            "member-level": "Silver",
             "logo": "images/preco.png"
         },
         {
@@ -86,21 +86,21 @@
             "Location":{
                 "address1": " Avenida Santa Leopoldina, 1925",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "0000000"
             },
             "phone-numbers": "2732898909",
-            "member-level": "silver",
+            "member-level": "Silver",
             "logo": "images/fisio.png"
         },
         {
             "name": "Correria music bar",
-            "type": "night club",
+            "type": "Night club",
             "Location":{
                 "address1": " Avenida Est. José Júlio de Souza, 740",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "000000"
             },
             "phone-numbers": "27981163325",
             "member-level": "silver",
@@ -113,8 +113,8 @@
             "Location":{
                 "address1": " Rod. do Sol, 5000",
                 "city": "Vila Velha",
-                "state": "Espirito santo",
-                "zip_code" : null
+                "state": "ES",
+                "zip_code" : "0000000"
             },
             "phone-numbers": "2733111600",
             "member-level": "silver",

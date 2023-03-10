@@ -1,4 +1,4 @@
-const requestURL = 'https://run.mocky.io/v3/a482e3d7-f038-45c6-a715-baf0827ae13c';
+const requestURL = 'https://run.mocky.io/v3/d4a3c3bb-01c6-4d87-82f3-c024c4e89d7c';
 
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
@@ -58,8 +58,9 @@ function displayCards(business) {
 
     //Business Address
     let address = document.createElement('p');
-    address.textContent = business.Location.address1 + ' ' + ' ' + business.Location.city + ', ' + business.Location.state + ' ' + 
+    address.textContent = business.Location.address1 + ' ' + ' ' + business.Location.city + ', ' + business.Location.state + ' ' + business.Location.zip_code;
     card.appendChild(address);
+
 
     // Business Phone
     let phone = document.createElement('p');
