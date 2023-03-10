@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/johnfilipe17/wdd230real/main/thetest/data.json';
+const requestURL = 'https://run.mocky.io/v3/a482e3d7-f038-45c6-a715-baf0827ae13c';
 
 const list = document.querySelector('#list');
 const table = document.querySelector('.table');
@@ -56,9 +56,9 @@ function displayCards(business) {
     type.textContent = business.type;
     card.appendChild(type);
 
-    // Business Address
+    //Business Address
     let address = document.createElement('p');
-    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + 
+    address.textContent = business.Location.address1 + ' ' + ' ' + business.Location.city + ', ' + business.Location.state + ' ' + 
     card.appendChild(address);
 
     // Business Phone
@@ -86,14 +86,13 @@ function displayTable(business) {
 
     // Business Address
     let address = document.createElement('td');
-    address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
+    address.textContent = business.Location.address1 + ' ' + ' ' + business.Location.city + ', ' + business.Location.state + ' ' + business.Location.zip_code;
     tableRow.appendChild(address);
 
     // Business Phone
     let phone = document.createElement('td');
     phone.textContent = business.phone;
     tableRow.appendChild(phone);
-
 
     document.querySelector('table').appendChild(tableRow);
 }
