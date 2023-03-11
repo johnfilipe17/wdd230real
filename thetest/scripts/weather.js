@@ -1,5 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5809844&appid=4e2177ee75d0475bee028ead2270af2d'
-
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?lat=-20.336840&lon=-40.291931&appid=19ef9fa5696576c4823c61b8bbfb08fc'
+// ali em cima eu coloquei meu API no final e a latitude e longitude de vila velha ele vai achar e por a temperatura atual 
 const getWeather = async () => {
     const response = await fetch(apiURL);
     jsObject = await response.json();
