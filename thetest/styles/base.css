@@ -40,6 +40,8 @@
 
 .banner-button img {
     width: 30px;
+    height: 30px;
+    
 }
 
 .banner-text,
@@ -587,5 +589,5 @@ tr td {
 .banner-close img {
     width: 25px;
     height: 25px;
+    
 }
-
