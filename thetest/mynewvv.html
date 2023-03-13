@@ -5,15 +5,16 @@
     <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.jpg">
     <meta name="description" content="this site will be on Espirito santo chamber of commerce and tourism">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <title>Capixaba Tourism Chamber of Commerce</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--essas duas linhas de cima vem com o fonts mas elas não são realmente necessarias e atrapalham a performance do site-->
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Mynerve&display=swap" rel="stylesheet">
 
 </head>
@@ -36,6 +37,9 @@
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="join.html">Join </a></li>
                 <li><a href="directory.html">Directory </a></li>
+                <li><a href="/wdd230real/targetaudience.html">Audience </a></li>
+                
+
             </ul>
         </nav>
         <div class="socials">
@@ -68,7 +72,7 @@
             <h2>VV Current Weather</h2>
             <div id="weather_top">
                 <h2><span id="temp"></span>&#8457;</h2>
-                <figure><img src="#" alt="Placeholder" id="weathericon" width="70px" height="70px">     
+                <figure><img src="#" alt="Placeholder" id="weathericon" width="70" height="70">     
                 </figure>
             </div>
             <hr>
@@ -84,7 +88,7 @@
             </p>
             <hr>
             <h3>Best Places to visit now</h3>
-            <img class="summer" src="images/beach.jpg" alt="summer"> 
+            <img class="summer" src="images/beach.webp" alt="summer" loading="lazy"> 
             <p>What are the best rated places this summer?<br> <a href="https://www.tripadvisor.com.br/Attractions-g303319-Activities-Vila_Velha_State_of_Espirito_Santo.html" target="_blank">Read more...</a>
             </p>
             <hr>
@@ -95,7 +99,13 @@
             <h2>Join Us</h2>
             <p>Do you own a business?  Do you want to get involved with the community? Are you a concerned citizen?</p>
             <p>Join us to make a difference in city's economy!</p>
-            <a href="join.html"><button>Join Us</button></a>
+            <!--<a href="join.html" target="_blank">
+                <button>Join us</button>
+                </a>
+            aqui em cima era o botão antigo mas eu apaguei pois dava erro pois o "button" não pode ser filho do "a" e nem vice-versa-->
+            <form action="join.html" method="get" target="_blank">
+                <button>Join us</button>
+            </form>
         </section>
         <section id="spotlights">
             <h2>Business Spotlights</h2>

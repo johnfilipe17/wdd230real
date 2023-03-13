@@ -6,10 +6,11 @@
 
 /* BANNER */
 .banner {
-    position: sticky;
+    position:sticky;
     top: 0px;
     z-index: 10;
     background: #11fc8e;
+   
     
     
 }
